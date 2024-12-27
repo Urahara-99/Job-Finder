@@ -29,7 +29,10 @@ const ResumePart = () => {
               <img src={uploadIcon} alt="Upload Icon" className="w-6 h-6" />
             </button>
           ) : (
+            <div className='w-28 flex'>
             <input type="file" name="file" alt="Upload Icon" />
+            <button className='px-6 py-1 text-[13px] bg-emerald-300 text-emerald-900'>Finish</button>
+            </div>
           )}
         </div>
       </div>
